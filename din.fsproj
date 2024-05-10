@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+<PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Include your source files -->
+    <Compile Include="Program.fsx" />
+    <!-- Add any other source files here -->
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Reference Akka.FSharp package -->
+    <PackageReference Include="Akka.FSharp" Version="1.4.28" />
+  </ItemGroup>
+
+</Project>
